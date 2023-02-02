@@ -9,7 +9,7 @@ export const PageArea = styled.div`
     background-color: #FFFFFF;
     box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
-    .menu{
+        .menu{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,7 +29,7 @@ export const PageArea = styled.div`
         flex-direction: column;
         align-items: flex-end;
         img{
-           position: fixed;
+           position: absolute;
            margin-right: 50px;
            width: 410px;
            margin-top: 113px;
