@@ -10,6 +10,7 @@ function App() {
     <BrowserRouter>
       <Root/>
     </BrowserRouter>
+    
   );
 }
 
