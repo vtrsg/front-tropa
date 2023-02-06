@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import { PageArea } from "./styled";
+import { FormArea } from "./styled";
 import logo from "../../pngs/logo.png";
 import computer from "../../pngs/computer.png";
 
-import { PageContainer } from "../../components/layout/PageContainer";
+import { FormContainer } from "../../components/layout/FormContainer";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   return (
-    <PageContainer>
-      <PageArea>
+    <FormContainer>
+      <FormArea>
         <div className="menu">
           <img src={logo} alt="logo" />
           <div className="menu-formContainer">
@@ -40,8 +40,8 @@ const SignIn = () => {
         <div className="image">
           <img src={computer} alt="computer" />
         </div>
-      </PageArea>
-    </PageContainer>
+      </FormArea>
+    </FormContainer>
   );
 };
 

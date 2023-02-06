@@ -7,6 +7,7 @@ const Root = () => {
     return (
       <Routes>
         <Route path="/" element={<SignIn />} />
+        <Route path="/dash" element={<Dash />} />
       </Routes>
     );
   };

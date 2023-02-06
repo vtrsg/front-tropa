@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import background from "../../pngs/background-login.png";
 
-export const PageArea = styled.div`
+export const FormArea = styled.div`
   display: flex;
   width: max-content;
   height: 520px;

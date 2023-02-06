@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const PageContainer = styled.div`
+export const FormContainer = styled.div`
     background-color: #FF6C22;
     display: flex;
     align-items: center;
